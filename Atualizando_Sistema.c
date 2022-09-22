@@ -15,8 +15,11 @@ int main(void)
 	printf("|------------------ 2 - RedHat / Fedora / CentOS ------------------| ");
 	printf("|------------------ 3 - SUSE / OpenSuse / MangOeS -----------------| ");
 
+	printf("Informe sua escolha: ");
+	scanf("%d", &systemOperation);
 	switch (systemOperation)
 	{
+
 	case 1:
 
 		printf("\n \n DISTRIBUIÇÕES SELECIONADAS -| Debian / Ubuntu / Mint |- \n \n");
@@ -25,7 +28,6 @@ int main(void)
 		scanf("%s", &escolha);
 
 		escolha = toupper(escolha);
-
 		switch (escolha)
 		{
 		case 'S':
