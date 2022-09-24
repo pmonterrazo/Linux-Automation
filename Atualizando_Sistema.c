@@ -17,6 +17,7 @@ int main(void)
 
 	printf("Informe sua escolha: ");
 	scanf("%d", &systemOperation);
+	
 	switch (systemOperation)
 	{
 
